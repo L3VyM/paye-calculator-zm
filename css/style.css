@@ -1,0 +1,21 @@
+body{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 130%;
+}
+
+h2, h4{
+	text-align: center;
+}
+
+button:hover{
+	font-weight: bold;
+}
+
+input[type=number]:focus
+{
+	font-weight: bold;
+}
+
+.card-body {
+    box-shadow: var(--shd, 0 5px 10px rgba(0, 0, 0, .6));
+}
